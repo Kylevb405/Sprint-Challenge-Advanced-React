@@ -1,5 +1,32 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Card {
+  display: flex;
+  flex-wrap: wrap;  
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.dark-mode {
+  background-color: grey;
+}
+
+.navbar {
+  background-color: black;
+  border: none;
+}
+
+.navheader {
+  color: white;
+}
+
+button {
+  width: 150px;
+  height: 50px;
 }
 
 .App-logo {
